@@ -1,0 +1,196 @@
+html,body
+{
+margin:0;padding:0;
+background:#FCFBFF;
+font-family: 'Roboto', sans-serif;
+font-size:16px;
+}
+#root
+{
+    width:100%;
+}
+.section
+{
+    margin-top:80px;
+}
+#header
+{
+    height:80px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+}
+#show_quiz_area
+{
+    width:580px;
+    margin: 2rem auto;
+}
+.quiz-header-title h3
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2D2D2D;
+    margin-bottom: 45px;
+
+}
+.quiz-header-title h4
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    
+    text-align: left;
+    color: #2D2D2D;
+    margin-bottom: 45px;
+
+}
+.quiz-header-title h2
+{
+    font-size:36px;
+}
+.quiz-header-title h5
+{
+    font-size:20px;
+}
+.quiz-header-title p
+{
+    font-size:16px;
+}
+.quiz-quest-box
+{
+    background-color: #F2EFE8;
+    padding:14px;
+    border-radius: 6px;
+    margin-bottom:14px;
+}
+.hdng-box
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    max-width: 460px;
+}
+.hdng-box .badge
+{
+    border-radius: 100%;
+    width:26px;
+    height:26px;
+    margin-right:10px ;
+    line-height: 17px;
+}
+.quiz-quest-body
+{
+    max-width:460px
+}
+.quiz-quest-body img
+{
+    margin-right: 12px;
+    width:47px;
+    height:47px;
+}
+.quiz-quest-body p
+{
+    margin: 0;
+}
+
+.btn-black
+{
+    background-color: #000;
+    color:#fff;
+    padding:14px 0.75rem ;
+    height:48px;
+}
+.btn-black:hover
+{
+    color: #fff;
+}
+.btn-trans
+{
+    color:inherit;
+    padding:0;
+    margin-top: -4px;
+}
+.btn-trans:hover
+{
+    color: inherit;
+}
+a.btn-black:link,a.btn-black:active,a.btn-black:hover,a.btn-black:visited
+{
+    color: #fff !important;;
+}
+.form-label
+{
+    font-size: 14px;
+}
+
+.form-control
+{
+    padding:16px 14px;
+    background:none;
+}
+.fs-sm
+{
+    font-size:12px;
+    line-height: 10px;
+}
+.steps-form .form-control
+{
+    padding:12px 14px;
+    background:#F2EFE8;
+}
+.agree-check
+{
+    font-size:12px;
+}
+.form-select {
+    
+    background-color: #F2EFE8;
+    font-size:12px;
+    height:48px;
+    
+}
+.check-box-wrap
+{
+    
+    padding:14px 18px;
+    background: #F2EFE8;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size:14px;
+    color:#424242;
+}
+.check-box-wrap .form-check-label
+{
+    padding-left: 15px;
+    line-height: 23px;
+    padding-top:4px;
+}
+.check-box-wrap .form-check-input
+{
+    width:23px;
+    height:23px;
+    background:#F2EFE8;
+    border-color:#9e9e9e;
+}
+.facetip h4
+{
+    font-size:14px;
+    text-transform: uppercase;
+}
+.facetip p
+{
+    color:#797979;
+    font-size: 12px;;
+}
+.info-icon
+{
+    color:#F55D07;
+    margin-right:12px;
+}
+
+.bi::before, [class^="bi-"]::before, [class*="bi-"]::before
+{
+    color:inherit;
+}
